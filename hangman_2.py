@@ -52,7 +52,8 @@ class HangMan:
             print('You can type only letters and spaces. Try again.')
             self.type_letter = input('Type letter: ').upper()
 
-
+    # checking input if it is in capital name, changes dash for input letter in list
+    # if there is no dashes in list, player win
     def letter(self,lifes):
         if self.not_in_word != []:
             print("Used letters: " + ', '.join(self.not_in_word))
