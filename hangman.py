@@ -1,3 +1,17 @@
+"""
+HangMan Game
+Diana Tokarska
+Tomasz Bujakowski
+Codecool 2016, Kraków
+"""
+
+####### IMPORTANT #######
+#
+#   Put capitals.txt in the same folder as main file
+#   to avoid errors with importing names.
+#
+#########################
+
 import random
 import sys
 import os
